@@ -134,17 +134,24 @@
     <ClInclude Include="App.h" />
     <ClInclude Include="CustomButton.h" />
     <ClInclude Include="Habit.h" />
+    <ClInclude Include="HabitPanel.h" />
     <ClInclude Include="MainFrame.h" />
+    <ClInclude Include="RenameDialog.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp" />
     <ClCompile Include="CustomButton.cpp" />
+    <ClCompile Include="HabitPanel.cpp" />
     <ClCompile Include="MainFrame.cpp" />
+    <ClCompile Include="RenameDialog.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Icons\alarm-clock.png" />
     <Image Include="Icons\check-list.png" />
     <Image Include="Icons\deodorant.png" />
+    <Image Include="Icons\fire-colored.png" />
+    <Image Include="Icons\fire-pale.png" />
+    <Image Include="Icons\gear.png" />
     <Image Include="Icons\grocery-bag.png" />
     <Image Include="Icons\hair-comb.png" />
     <Image Include="Icons\headphones.png" />

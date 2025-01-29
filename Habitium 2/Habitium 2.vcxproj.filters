@@ -27,6 +27,12 @@
     <ClInclude Include="Habit.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="HabitPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RenameDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp">
@@ -36,6 +42,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="CustomButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HabitPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RenameDialog.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -77,6 +89,15 @@
       <Filter>Resource Files</Filter>
     </Image>
     <Image Include="Icons\wallet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Icons\fire-colored.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Icons\fire-pale.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Icons\gear.png">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>

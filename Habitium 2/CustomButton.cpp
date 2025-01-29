@@ -102,7 +102,7 @@ void CustomButton::OnClick(wxMouseEvent& evt)
 
 void CustomButton::OnUnClick(wxMouseEvent& evt)
 {
-	if (this->HasCapture()) this->ReleaseMouse();
+	//if (this->HasCapture()) this->ReleaseMouse();
 
 	bcolor = hovering ? HoverColor : IdleColor;
 	Refresh();

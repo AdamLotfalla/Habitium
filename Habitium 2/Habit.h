@@ -9,6 +9,7 @@ struct Habit {
 	int bestStreak;
 	int frequency;
 	bool notification;
+	bool checked = false;
 	wxBitmap originalBitmap;
 	wxBitmap icon;
 

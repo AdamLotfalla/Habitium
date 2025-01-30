@@ -15,9 +15,13 @@ struct HabitPanel : public wxPanel
 	wxFont Habitfont = wxFont(10, wxFONTFAMILY_SWISS, wxFONTSTYLE_NORMAL, wxFONTWEIGHT_SEMIBOLD, false);
 
 	MainFrame* mainframe = nullptr;
+	wxCheckBox* checkBox;
 
 	bool habitHover;
-	bool isSelected;
+	bool isSelected = false;
+	bool inBestStreak;
+	wxPanel* panel;
+	wxBoxSizer* checkboxSizer;
 
 
 	HabitPanel(wxWindow* parent, wxPoint position, wxSize size, wxString Habitname, wxString Habitdescription, wxString Habiticonpath, int& index, MainFrame* frame);
@@ -27,5 +31,8 @@ struct HabitPanel : public wxPanel
 	void OnHabitUnclick(wxMouseEvent& evt);
 	void UpdatePanel(wxString newName, wxString newDescpription, wxBitmap newBitmap, int newFrequency, bool newNotification);
 	void UpdateColorBasedOnNewIndex(int index);
+	void OnChildClick(wxMouseEvent& evt);
+	void OnChildHover(wxMouseEvent& evt);
+	void OnCheckBox(wxCommandEvent& evt);
 };
 

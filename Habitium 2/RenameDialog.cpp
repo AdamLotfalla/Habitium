@@ -39,7 +39,13 @@ void RenameDialog::onRenameButton(wxCommandEvent& evt)
 {
 	frameptr->activeHabit->name = textInput->GetValue();
 
-	frameptr->activeHabitPanel->UpdatePanel(textInput->GetValue(), frameptr->activeHabitPanel->habit.description, frameptr->activeHabitPanel->habit.icon, frameptr->activeHabitPanel->habit.frequency, frameptr->activeHabitPanel->habit.notification);
+	frameptr->activeHabitPanel->UpdatePanel(
+		textInput->GetValue(), 
+		frameptr->activeHabitPanel->habit.description, 
+		frameptr->activeHabitPanel->habit.originalBitmap, 
+		frameptr->activeHabitPanel->habit.frequency, 
+		frameptr->activeHabitPanel->habit.notification
+	);
 	frameptr->UpdateHabitPreview();
 	frameptr->loadHabits();
 	EndModal(true);

@@ -4,8 +4,8 @@ Habitium is a habit tracker made as my second project in wxWidgets after [Notele
 The app is way far from being finished but the basic functionality are there. I had to submit it to High Seas before coding all the features I wanted because the event will close soon and I really nead the extra few doubloons. 
 I'm really proud of my custom UI work for the project as wxWidgets is really limited in UI and only sticks to the native UI elements of the OS.
 
-Download the app and test it on Windows from [here](https://github.com/AdamLotfalla/Habitium/releases/tag/1.0)
-Watch tutorial from [here]()
+- Download the app and test it on Windows from [here](https://github.com/AdamLotfalla/Habitium/releases/tag/1.0) 
+- Watch tutorial from [here](https://cloud-6r5l63amn-hack-club-bot.vercel.app/0habitium_tutorial.mp4)
 
 ## Features in Habitium 1.0
 **Adding habits**

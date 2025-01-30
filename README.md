@@ -9,16 +9,21 @@ Watch tutorial from [here]()
 ## Features in Habitium 1.0
 **Adding habits**
 - From the add button on the buttom of the side bar
-- You can mark the habit as done for today from the chekcbox 
+- You can mark the habit as done for today from the chekcbox
+
 **Previewing habits**
 - Click on a habit from the side bar to open on the preview panel
+
 **Deleting habits**
 - Click on the delete icon beside the name of the habit, a confirmation dialog will appear
+
 **Modifying habits**
 - Double click on the name in the preview panel to rename
 - Click on the description box to change description
 - Click on the icon to choose from the icons provided
+
 **Custom icons**
 - You can add your own icons by going to **Habitium folder >> Icons** and paste your icon
+
 
 I know this is not a lot compared to my other project, but I only had 3 days to finish it :)

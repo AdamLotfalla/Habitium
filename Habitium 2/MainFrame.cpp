@@ -31,7 +31,7 @@ MainFrame::MainFrame(wxString TITLE) : wxFrame(nullptr, wxID_ANY, TITLE) {
 	this->Refresh();
 
 	//	TEMPORARY!
-	CreateStatusBar();
+	//CreateStatusBar();
 }
 
 void MainFrame::makeSidePanel()
@@ -393,7 +393,7 @@ void MainFrame::OnNameDoubleClick(wxMouseEvent& evt)
 
 void MainFrame::OnIconClick(wxMouseEvent& evt)
 {
-	iconDialog = new wxDialog(this, wxID_ANY, "Change Icon");
+	iconDialog = new wxDialog(this, wxID_ANY, "Change Icon", wxDefaultPosition, wxSize(332,250));
 	wxScrolledWindow* iconScroll = new wxScrolledWindow(iconDialog, wxID_ANY);
 	wxWrapSizer* iconSizer = new wxWrapSizer(wxHORIZONTAL);
 
